@@ -1,0 +1,11 @@
+h1 {
+  /* first number is the horizontal offset shadow and second number is the vertical offset shadow while the third number is the blur radius and the last number is the color of the shadow. */
+  text-shadow: 50px 1px 2px red, -3px -3px 5px blue;
+}
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(185, 176, 176);
+  box-shadow: 3px 3px 5px;
+}

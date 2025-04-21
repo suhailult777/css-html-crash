@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+/* applying transformations to the class name box */
+
+/* .box {
+  width: 250px;
+  height: 250px;
+  border: 5px solid #000;
+  font-size: 13em;
+  text-align: center;
+  background-color: green;
+
+  transform: translatex(100px) rotateZ(45deg) scale(0.5);
+} */
+/* #box1 { */
+/* width: 250px;
+  height: 250px;
+  border: 5px solid #000;
+  font-size: 13em;
+  text-align: center; */
+/* background-color: green; */
+
+/* transform property */
+
+/* transform: translateX(
+    200px
+  ); move 50px to the right while negative number move the element towards left */
+
+/* transform: translatex(
+    -200px
+  ); move 50px to the bottom while negative number move the element towards top */
+
+/* transform: translatex(100%); percentage value moves the element according to its parent element width */
+/* transform: translatex(-100%); with negative percentage value moves the element according to its parent element width */
+
+/* similarly for y axis transformation the positive value moves the element towards bottom and negative value moves the element towards top */
+/* transform: translatey(100% or -100px or 100px); percentage value moves the element according to its parent element height */
+/* transform: translatey(-100%); with negative percentage value moves the element according to its parent element height */
+
+/* translation can be both x and y axis at the same time */
+/* transform: translate(100px, 200px); move 100px to the right and 200px to the bottom */
+
+/* ---------------------------------------------------------------- */
+
+/* another property we have in transformation are rotations */
+/* transform: rotateX(45deg); /* rotate the element 45 degree in x axis */
+/* transform: rotateX(90deg); rotate the element 90 degree in x axis */
+/* transform: rotateX(180deg); rotate the element 180 degree in x axis */
+/* transform: rotateX(360deg); rotate the element 180 degree in x axis */
+
+/* transform: rotatey(45deg); /* rotate the element 45 degree in y axis */
+/* transform: rotatey(90deg); rotate the element 90 degree in y axis */
+/* transform: rotatey(180deg); rotate the element 180 degree in y axis */
+/* transform: rotatey(360deg); rotate the element 360 degree in y axis */
+
+/* transform: rotatez(
+    45deg
+  ); /* rotate the element 45 degree in z axis */
+/* transform: rotatez(90deg); rotate the element 90 degree in z axis */
+/* transform: rotatez(180deg); rotate the element 180 degree in z axis */
+/* transform: rotatez(360deg); rotate the element 360 degree in z axis */
+
+/* transform: scalex(3); 1 corresponds to 100% and 0.5 corresponds to 50% of the element size */
+/* transform: scaleY(
+    2
+  ); 1 corresponds to 100% and 0.5 corresponds to 50% of the element size */
+
+/* you can also scale the element in both x and y axis at the same time */
+
+/* transform: scale(
+    2,
+    3
+  ); scale the element 2 times in x axis and 3 times in y axis */
+
+/* transform: skewx(45deg); skew the element 45 degree in x axis */
+/* transform: skewx(90deg); skew the element 90 degree in x axis */
+/* transform: skewx(180deg); skew the element 180 degree in x axis */
+/* transform: skewx(360deg); skew the element 360 degree in x axis */
+
+/* similarly for y axis for skew */
+
+/* transform: skewy(45deg); skew the element 45 degree in y axis */
+/* transform: skewy(90deg); skew the element 90 degree in y axis */
+/* transform: skewy(180deg); skew the element 180 degree in y axis */
+/* transform: skewy(360deg); skew the element 360 degree in y axis */
+
+/* we can combine them both */
+/* transform: skew(10deg, 20deg); skew the element 45 degree in x axis and 90 degree in y axis */
+
+/* we can also add multiple transformations at the same time */
+/* transform: translatex(100%) rotatez(90deg) scale(0.5); move the element 100% to the right and rotate it 90 degree in z axis and scale it 0.5 times */
+/* }
+#box2 {
+  background-color: red;
+}
+#box3 {
+  background-color: blue;
+} */
+
+/* for image  */
+
+img {
+  width: 250px;
+  height: 250px;
+  transform: translatex(100%) rotatez(180deg) scaleX(2);
+}
