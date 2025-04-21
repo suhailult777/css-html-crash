@@ -23,6 +23,8 @@ css-html-crash/
 ├── css-crash/
 │   ├── index.html
 │   ├── style.css
+│   ├── transform.css
+│   ├── shadow.css
 │   ├── [topic-specific folders...]
 ├── Html-crash/
 │   ├── index.html
@@ -92,6 +94,10 @@ css-html-crash/
 - **position-css/**: Positioning (static, relative, absolute, fixed, sticky).
 - **psudo-classes-css/**: Pseudo-classes like `:hover`, `:active`, `:nth-child`.
 - **psuedo-element-css/**: Pseudo-elements like `::before`, `::after`, `::first-letter`.
+- **shadows-css/**: CSS box-shadow and text-shadow examples.
+- **Transform-css/**: CSS transforms (rotate, scale, skew, translate).
+- **transform.css**: Standalone file for transform utilities and demos.
+- **shadow.css**: Standalone file for shadow utilities and demos.
 
 ### Html-crash
 
