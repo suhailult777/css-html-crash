@@ -1,0 +1,30 @@
+h1::first-letter {
+  font-size: 2em;
+  font-style: italic;
+}
+p::first-line {
+  background-color: yellow;
+}
+p::selection {
+  color: green;
+  background-color: darkgray;
+}
+#fruit li::before {
+  /* after is also possible */
+  content: "🍇";
+}
+#apple::after {
+  /* after is also possible */
+  content: "🍎";
+}
+#orange::after {
+  /* after is also possible */
+  content: "🍊";
+}
+#banana::after {
+  /* after is also possible */
+  content: "🍌";
+}
+#fruit li::marker {
+  content: "👍";
+}

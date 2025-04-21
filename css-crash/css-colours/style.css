@@ -1,0 +1,18 @@
+body {
+  /* background-color: slategrey; */
+  /* color: rgb(41, 41, 41); */
+  /* background-color: #545454; */
+  background-color: hsl(226, 42%, 50%);
+}
+#p1 {
+  color: tomato;
+}
+#p2 {
+  color: rg(102, 222, 255);
+}
+#p3 {
+  color: #59ff5f;
+}
+#p4 {
+  color: hsl(226, 42%, 50%);
+}

@@ -1,0 +1,22 @@
+#container {
+  border: 2px solid;
+}
+#container p {
+  /* This is a combinator just have a empty space */
+  background-color: red;
+}
+#container > p {
+  /*this is child combinator*/
+  /* it will only select the direct child of the container */
+  background-color: red;
+}
+#container ~ p {
+  /*this is sibling combinator*/
+  /* it will select all the siblings of the container */
+  background-color: red;
+}
+#container + p {
+  /*this is adjacent sibling combinator*/
+  /* it will select the immediate sibling of the container */
+  background-color: red;
+}

@@ -1,0 +1,15 @@
+body {
+  border: 3px solid;
+  /* flow-root will fix the float issue of overflowing the border */
+  display: flow-root;
+}
+
+#img1 {
+  float: left;
+  /* float: right; */
+  margin-right: 10px;
+}
+#img2 {
+  float: right;
+  margin-left: 10px;
+}

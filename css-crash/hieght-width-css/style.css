@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  height: 100vh; /*vh is viewport height it will take 100 percent of height available */
+}
+
+.box {
+  /* border: 2px solid #000; */
+  background-color: white;
+  height: auto; /*fixed hieght*/
+  padding: 25px;
+  box-sizing: border-box;
+  width: 200px;
+  width: auto; /*auto width*/
+  width: 50%;
+  float: left;
+  float: right;
+  text-align: center;
+
+  /* cap the width of the box to 25% of the viewport although the width is 50 percent */
+  max-width: 25%;
+  /* each box should be 75 percent of the viewport even before we declare it is 50 % */
+  min-width: 75%;
+
+  max-height: 50%; /*it will only take 50 percent of the height of the viewport */
+  min-height: 100%; /*it will take 100 percent of the height of the viewport */
+}

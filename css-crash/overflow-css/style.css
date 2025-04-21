@@ -1,0 +1,10 @@
+div {
+  border: 2px solid;
+  height: 75px;
+  overflow: visible; /* This is the default value */
+  overflow: hidden; /* Hides the content that overflows the div */
+  overflow: scroll; /* Adds a scrollbar to the div */
+  overflow: clip; /* Clips the content that overflows the div */
+  overflow-clip-margin: 13px; /* Adds a margin to the clipped content */
+  overflow: auto; /* Adds a scrollbar to the div only if needed */
+}

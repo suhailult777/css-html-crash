@@ -1,0 +1,7 @@
+body {
+  background-image: url(bulb_drops_neon_171390_1024x768.jpg); /* Add your image path but for smaller image it will repeat itself so there is background repeating property */
+  background-repeat: no-repeat; /* This will not repeat the image */
+  background-position: center; /* This will position the image in center */
+  background-attachment: fixed; /* This will make the image fixed it will not scroll with the scroll bar */
+  background-size: cover; /* This will cover the whole screen */
+}

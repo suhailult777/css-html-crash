@@ -1,0 +1,24 @@
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  /* it will not change the block level element as div is already block level element */
+  display: block;
+  display: inline;
+  display: inline-block;
+  display: none; /* it will remove the element entirely */
+  visibility: hidden; /* it will hide the element but it will take the space */
+}
+
+span {
+  background-color: blue;
+  /* this do nothing remains the same size */
+  width: 100px;
+  height: 100px;
+  /* if we do the same for span it will change the inline element to block level element */
+  display: block;
+  /* both div and span will be dispalyed as inline now we can't apply width and height to inline elements  */
+  display: inline;
+  /* both for div and span it is much like inline but it can have width and height */
+  display: inline-block;
+}

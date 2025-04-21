@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+/* p {
+  color: white;
+} */
+
+/* for id calling use #idname */
+/* #p1 {
+  color: red;
+}
+#p2 {
+  color: orange;
+}
+#p3 {
+  color: yellow;
+}
+#p4 {
+  color: green;
+} */
+
+/* to apply class we will use .classname */
+.odd {
+  color: red;
+}
+.even {
+  color: blue;
+}
+
+/* 
+adv of external css is that we can use the same css file for multiple html files
+these sheets are also usable so it is very convenient to use external css
+*/

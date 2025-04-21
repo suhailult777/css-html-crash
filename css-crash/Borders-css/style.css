@@ -1,0 +1,28 @@
+h1 {
+  /* border-style: solid; 
+   border-style: dashed;
+  border-style: dotted;
+  border-style: groove;
+  border-style: ridge;
+  border-style: inset;
+  border-style: outset;
+  border-style: none; */
+
+  /* border-width: 4px;
+  /* for the border thickness */
+  border-color: #000;
+  /* rounded border */
+  /* border: radius: 10px; */
+
+  /* shorthand method */
+  border: 3px solid #000;
+}
+p {
+  /* position border */
+  border-bottom: 3px solid rgb(222, 76, 76);
+  border-top: 3px solid hsl(0, 25%, 38%);
+  border-left: 3px solid #3b31a8;
+  border-right: 3px solid hwb(75 5% 16%);
+
+  border-radius: 10px;
+}

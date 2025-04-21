@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is page no. 2</h1>
+
+    <input type="text" id="userInput" placeholder="Type something here"
+        style="font-size: 18px; padding: 5px; margin: 10px 0;">
+
+    <button onclick="updateText()" style="font-size: 20px; background-color: #4CAF50; color: white; border: none; 
+                   padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+        Update Text
+    </button>
+
+    <p id="displayText" style="font-size: 20px; color: #333;">Your text will appear here</p>
+
+    <script>
+        function updateText() {
+            var userInput = document.getElementById("userInput").value;
+            document.getElementById("displayText").innerHTML =
+                userInput ? userInput : "Please enter some text";
+        }
+    </script>
+</body>
+
+</html>

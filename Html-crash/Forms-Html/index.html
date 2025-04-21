@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- The form element represents a collection of form-associated elements, some of which can represent editable values that can be submitted to a server for processing. -->
+    <!-- The URI of a program that processes the form information. This value can be overridden by a formaction attribute on a <button> or <input> element. it is usually done with php so action attribute sends the data to this location-->
+
+
+    <!-- The HTTP method that the browser uses to submit the form. Possible values are:
+
+    post: Corresponds to the HTTP POST method ; form data are included in the body of the form and sent to the server.
+    get: Corresponds to the HTTP GET method; form data are appended to the action attribute URI with a '?' as separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters.
+    dialog: Use when the form is inside a <dialog> element to close the dialog when submitted.
+    This value can be overridden by a formmethod attribute on a <button> or <input> element. -->
+
+    <!-- type is a textbox -->
+    <!-- enctyoe breaks the data into multiple parts when we receive the data it will reassemble the multiple part data -->
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <!-- for attribute for interaction with the input element -->
+        <label for="username">username:</label>
+        <!-- required is used to make the input field mandatory -->
+        <!-- minlength is used to set the minimum length of the input field -->
+        <!-- maxlength is used to set the maximum length of the input field -->
+        <!-- placeholder is used to give a hint to the user about what to write in the input field -->
+        <input type="text" id="username" placeholder="Write Something" minlength="6" maxlength="6" required>
+
+
+        <!-- password button is used to hide the input field -->
+        <label for="password">password:</label>
+        <!-- id should match with the for attribute of the label -->
+        <input type="password" id="password" minlength="6" maxlength="15" required><br>
+
+        <!-- email button is used to validate the email -->
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="suhail@gmail.com" required><br>
+
+        <!-- phone button is used to validate the number -->
+        <label for="phone">phone #:</label>
+        <!-- pattern is used to set the pattern of the input field -->
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+        <!-- date button is used to validate the date -->
+        <label for="bday">birthdate:</label>
+        <input type="date" id="bday"><br>
+
+        <!-- Quantity (between 1 and 5): -->
+        <!-- number button is used to validate the number -->
+        <label for="quantity">quantity (between 1 and 5):</label>
+        <!-- we can set min and max value for the input field we can add default value -->
+        <input type="number" id="quantity" name="quantity" min="1" max="5" value="1"><br>
+
+        <!-- radio button is used to select one option from the given options -->
+        <label for="Mr.">Mr.:</label>
+        <!-- name attribute is used to group the radio buttons -->
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.:</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="phd.">phd.:</label>
+        <input type="radio" id="phd." value="phd." name="title"><br>
+
+        <!-- Dropdown Menu -->
+        <label for="payment">payment</label>
+        <!-- The select element represents a control for selecting amongst a set of options. -->
+        <select>
+            <option value="visa">visa</option>
+            <option value="madtercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+
+        <!-- checkbox button is used to select multiple options from the given options -->
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <!-- textarea button is used to write a paragraph -->
+        <label for="comment">comment</label>
+        <textarea id="comment" rows="3" cols="25"></textarea>
+
+        <!-- file Submition -->
+        <label for="file">file:</label>
+        <!-- accept is used to accept the file type -->
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+
+        <!-- reset button is used to clear the input fields -->
+        <input type="reset"><br>
+        <!-- submit button is used to submit the form -->
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>

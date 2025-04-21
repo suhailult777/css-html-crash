@@ -1,0 +1,26 @@
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative; /* relative to the normally should be */
+  /* position: fixed; fixed to the browser window */
+  /* position: absolute; absolute to the parent element or containing class */
+  position: sticky; /* sticky to the browser window of scroll bar*/
+  top: 0px;
+  /* top: -100px;
+  left: -100px; */
+  /* right: 0px; */
+  /* left: 0px;
+  bottom: 0px; */
+  top: 100px;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute; /* absolute to the parent element or containing class */
+  position: static; /* static to the normally should be */
+  top: 50px;
+  left: 50px;
+}

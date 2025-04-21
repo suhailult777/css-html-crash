@@ -1,0 +1,45 @@
+/* for example1: */
+
+/* a:link {
+  color: lightblue;
+}
+a:hover {
+  color: lightgreen;
+  font-size: 1.1em;
+}
+a:active {
+  color: darkblue;
+  /* active kicks in when you are holding the mouse button down on the link */
+/* font-size: 1.1em; */
+/* } */
+/* a:visited {
+  color: grey;
+} */
+
+/* for exapmle2: */
+/* li:hover {
+  background-color: yellow;
+}
+li:not(:hover) {
+  /* anything is not currently hovered is grey */
+/* background-color: gray; */
+/* } */
+/* li:nth-child(4n + 1) { */
+/* for every 4th element */
+/* you can add for eery 3rd element for 4n and 3n */
+/* you can type odd and even apart from numbers */
+/* any value put with nth-child will be applied to the first child or selected */
+/* background-color: yellow; */
+/* } */
+
+/* for example3: */
+
+#greeting p {
+  background-color: blue;
+  padding: 10px;
+  display: none;
+}
+/* element can have special case  */
+#greeting:hover p {
+  display: block;
+}

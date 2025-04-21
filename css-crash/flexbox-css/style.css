@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  /* alignment property which sets the alignment of the flex items on the cross axis */
+  border: 10px solid black;
+  height: 90vh;
+  /* align-items: flex-start; default value */
+  /* align-items: flex-end; */ /* aligns items to the end of the container */
+  /* align-items: center; aligns items to the center of the container */
+  /* align-items: baseline; */ /* aligns items to the baseline of the container */
+  /* align-items: stretch; */ /* stretches items to fill the container */
+  /* align-items: space-between; */ /* distributes items evenly, with the first item at the start and the last item at the end */
+  /* align-items: space-around; */ /* distributes items evenly, with equal space around them */
+  /* align-items: space-evenly; */ /* distributes items evenly, with equal space around and between them */
+
+  /* ------------------------------------------------------ */
+
+  /* justify content sets the alignment of the flex items on the main axis. */
+  /* justify-content: flex-start; */ /* default value */
+  /* justify-content: flex-end; */ /* aligns items to the end of the container */
+  /* justify-content: center; */ /* aligns items to the center of the container */
+  /* justify-content: space-between; */ /* distributes items evenly, with the first item at the start and the last item at the end */
+  /* justify-content: space-around; distributes items evenly, with equal space around them */
+  /* justify-content: space-evenly; /* distributes items evenly, with equal space around and between them */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* ---------------------------------------- */
+
+  /* flex-wrap: wrap; /* allows items to wrap onto multiple lines */
+  /* flex-wrap: nowrap; default value */
+  /* flex-wrap: wrap-reverse; allows items to wrap onto multiple lines in reverse order */
+
+  /* --------------------------------- */
+
+  /* align-content: flex-start; default value it will remove the space */
+  /* align-content: flex-end; */ /* aligns items to the end of the container */
+  /* align-content: center; */ /* aligns items to the center of the container */
+  /* align-content: space-between; */ /* distributes items evenly, with the first item at the start and the last item at the end */
+  /* align-content: space-around; */ /* distributes items evenly, with equal space around them */
+  /* align-content: stretch; */ /* stretches items to fill the container */
+
+  /* ------------------------------------------------------------------- */
+
+  /* column-gap: 3em; /* sets the gap between columns */
+  /* row-gap: 1em; sets the gap between rows */
+}
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  border-radius: 15px;
+}
+#box1 {
+  background-color: red;
+  /* align self property can be applied to any element  */
+  /* align-self: start; aligns the item to the start of the container */
+  /* align-self: end; aligns the item to the end of the container */
+  /* align-self: center; aligns the item to the center of the container */
+
+  /* ----------------------------------------- */
+
+  /* order: 1; will put 1 to the end sets the order of the item in the flex container, default value is 0 */
+  order: -1; /* will put 1 to the begining sets the order of the item in the flex container, default value is 0 */
+}
+#box2 {
+  background-color: lightblue;
+  /* align-self: baseline; aligns the item to the baseline of the container */
+  /* align-self: stretch; stretches the item to fill the container */
+  /* align-self: auto; default value */
+  order: 1;
+  order: -1; /* will put 1 to the end sets the order of the item in the flex container, default value is 0 */
+}
+#box3 {
+  background-color: lightgreen;
+}
+#box4 {
+  background-color: rgb(212, 212, 73);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- The button element represents a button labeled by its contents. -->
+
+    <!-- If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents. we can make button functional using hyperlinks -->
+    <!-- <a href="https://www.google.com"> -->
+    <!-- <a href="page2.html">
+        <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">Click
+            Me</button>
+    </a> -->
+
+    <!-- we can also use javascript to make button functional -->
+
+    <!-- The script element allows authors to include dynamic script and data blocks in their documents. The element does not represent content for the user. -->
+
+    <input type="text" id="userInput" placeholder="Enter your text here" style="font-size: 20px; margin-bottom: 10px;">
+    <button onclick="doSomething()"
+        style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">Click
+        Me</button>
+    <!-- we change the paragraph text using javascript do doSomething function by using id attribute -->
+
+    <!-- Defines a unique identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS). -->
+    <p id="greeting">Hello</p>
+
+    <script>
+        // whenever we click the button the text of paragraph will change to "Goodbye"
+        function doSomething() {
+            var userInput = document.getElementById("userInput").value;
+            document.getElementById("greeting").innerHTML = userInput ? userInput : "Goodbye";
+        }
+    </script>
+
+</body>
+
+</html>

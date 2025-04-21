@@ -1,0 +1,173 @@
+body {
+  background-color: black;
+}
+#box {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  font-size: 13em;
+  text-align: center;
+  /*animationproperties*/
+  /* animation-name: slideleft; */
+  /* animation-name: slideright; */
+  /* animation-name: slideup; */
+  /* animation-name: slidedown; */
+  /* animation-name: Rotate; */
+  /* animation-name: shrink; */
+  /* animation-name: grow; */
+  /* animation-name: fade; */
+  /* animation-name: fadeIn; */
+  /* animation-name: colourChange; */
+  /* animation-name: glow; */
+  /* animation-duration: 2s; */
+  /* for fade in effect  */
+  /* opacity: 0; */
+  /* animation-iteration-count: infinite; it will perform animation twice */
+  /* animation-direction: normal; it will perform animation in normal direction */
+  /* animation-direction: reverse; it will perform animation in reverse direction */
+  /* animation-direction: alternate; it will perform animation in alternate direction */
+  /* animation-direction: alternate-reverse; it will perform animation in alternate reverse direction */
+  /* animation-play-state: paused; it will pause the animation */
+  /* animation-play-state: running; it will run the animation */
+  /* animation-timing-function: ease-in-out; it will perform animation in ease in out manner */
+  /* animation-timing-function: linear; it will perform animation in linear */
+  /* animation-timing-function: steps(10); it will perform animation in steps manner stop motion effect */
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  animation-name: slideleft;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
+}
+
+/* animation with psuedo class with hovering effect  */
+
+/* #box:hover {
+  animation-name: glow;
+  cursor: pointer;
+  animation-duration: 2s;
+} */
+
+/* #box:active {
+  animation-name: glow;
+  animation-duration: 2s;
+} */
+
+@keyframes slideleft {
+  from {
+    /* transform: translateX(100px); */
+    /* if we increase the percentage it will move more to the left on the x-axis */
+    transform: translateX(300%);
+  }
+}
+@keyframes slideright {
+  /* setting the animation to end up this position through to keyword */
+  to {
+    /* transform: translateX(100px); */
+    /* if we increase the percentage it will move more to the left on the x-axis */
+    transform: translateX(300%);
+  }
+}
+@keyframes slideup {
+  /* setting the animation to end up this position through to keyword */
+  from {
+    /* transform: translatey(100px); */
+    /* if we increase the percentage it will move more to the left on the x-axis */
+    transform: translatey(300%);
+  }
+}
+@keyframes slidedown {
+  /* setting the animation to end up this position through to keyword */
+  to {
+    /* transform: translatey(100px); */
+    /* if we increase the percentage it will move more to the left on the x-axis */
+    transform: translatey(300%);
+  }
+}
+/* @keyframes Rotate {
+  100% {
+    /* transform: rotateX(360deg); */
+/* transform: rotateY(360deg); */
+/* transform: rotateZ(360deg); */
+/* }
+} */
+
+/* @keyframes Rotate { */
+/* here at 50% mark we rotate ones and revert back complete the rotation
+  at 50 percent and revert back to original for another 50percent */
+/* 50% { */
+/* transform: rotateX(360deg); */
+/* transform: rotateY(360deg); */
+/* transform: rotateZ(360deg); */
+/* } */
+/* } */
+@keyframes Rotate {
+  /* here at 25% mark we rotate ones and revert back complete the rotation
+  at 25 percent at faster rate at 1.5 sec and another 25 percent to revert back at much slower rate in 2 sec */
+  25% {
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(360deg); */
+    transform: rotateZ(360deg);
+  }
+}
+/* @keyframes grow {
+  100% {
+    transform: scale(2, 2);
+  }
+} */
+@keyframes grow {
+  50% {
+    transform: scale(2, 2);
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+/* @keyframes fade {
+  50% {
+    opacity: 0;
+  }
+} */
+/* @keyframes fade {
+    revert not smoothly
+  100% {
+    opacity: 0;
+  }
+} */
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes colourChange {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  40% {
+    background-color: green;
+  }
+  60% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: orange;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+@keyframes glow {
+  50% {
+    box-shadow: 0px 0px 50px yellow;
+  }
+}

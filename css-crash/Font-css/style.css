@@ -1,0 +1,19 @@
+/* to use local font */
+@font-face {
+  font-family: Roboto;
+  src: url(Fonts/Roboto-VariableFont_wdth\wght.ttf);
+}
+
+h1 {
+  /* fall back font-family: verdana, arial; for wider browser support*/
+  /* font-family: verdana, arial; */
+  font-family: Roboto;
+}
+p {
+  font-family: "Open Sans" "lucida console", "courier new";
+  /* font-size: 18px; */
+  /* 1em = 100% of the parent element's font-size */
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}

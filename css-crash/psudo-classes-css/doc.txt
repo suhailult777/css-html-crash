@@ -1,0 +1,3 @@
+psuedo classes are keyword added selector they modify the behaviour when added to a button
+
+for example hover
